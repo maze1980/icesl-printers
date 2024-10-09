@@ -151,7 +151,7 @@ function swap_extruder(from,to,x,y,z)
   end
   current_extruder = to
   undock_extruder(to)
-  set_fan_speed(255)
+  set_fan_speed(100)
   -- done
   current_frate = travel_speed_mm_per_sec * 60
   changed_frate = true
