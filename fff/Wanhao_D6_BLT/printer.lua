@@ -78,7 +78,7 @@ function header()
   output(';(**** end of end of print gcode ****)')
   if custom_raft_creation then 
     output('; raft start')
-    --custom_raft()
+    custom_raft()
     output('; raft end')
   end
 end
